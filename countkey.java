@@ -53,10 +53,10 @@ public class countkey {
           continue; 
           }
         
-	  if (comment) {//If inside a comment, skip the loop
+      if (comment) {//If inside a comment, skip the loop
 	      continue; 
 	      }
-	  if (word.startsWith("\"")) {//if starts with string, skip the loop
+      if (word.startsWith("\"")) {//if starts with string, skip the loop
 		  continue;
 	      }
       if (word.startsWith("//")) {//I don't know why continue doesn't work for this case, but i used another method. It skips the line completely
